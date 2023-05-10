@@ -1,0 +1,151 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    padding-bottom: 160px;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+    color: #FF7E67;
+}
+
+header h2 {
+    color: #A2D5F2
+}
+
+.navbar {
+    background-color: #FF7E67;
+  }
+
+footer {
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #5a5e60;
+}
+
+a {
+  color: #5a5e60;
+}
+
+a:hover {
+  color: #FF7E67;
+}
+
+footer a {
+  padding-right: 5em;
+}
+
+footer p {
+  padding-top: 1em;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #07689F, #07689F, #07689F);
+    color: #FAFAFA;
+}
+
+.myShadow {
+    filter: drop-shadow(3px 3px 6px rgba(112, 116, 123, 0.75));
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+#outputSection {
+    border: 3px solid #FF7E67;
+    border-radius: 6px;
+    padding: 6px;
+    background-color: #FAFAFA;
+}
+
+#resetButton1 {
+    background-color: #FF7E67;
+    border: #FF7E67;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+  
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-1 {
+    background-image: linear-gradient(to right, #29323c, #485563, #A2D5F2, #07689F);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right, #FF7E67, #FF7E67, #A2D5F2, #07689F);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+/*----------BORDERS------------
+
+.col, div[class^="col-"], label[class^="col-"] {
+    border: 1px solid rgb(160, 159, 159);
+  } 
+  
+  .row {
+    border: 3px solid blue;
+  }
+  
+  .container, .container-fluid {
+    border: 3px solid green;
+  }
+  
+  .media {
+    border: 3px solid yellow;
+  }  
+  
+  .card {
+    border: 3px solid purple;
+  }
+
+  .orange-border {
+  
+    border: 1px solid green;
+  
+  } 
+  */
+
